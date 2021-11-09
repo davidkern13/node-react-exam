@@ -15,3 +15,7 @@ Front-End
 
 
 
+
+See in action
+
+![alt text](https://i.ibb.co/j4jhnQf/chrome-capture.gif)
