@@ -1,0 +1,1 @@
+export const sliceData = (data = [], length) => data.slice(0, length);

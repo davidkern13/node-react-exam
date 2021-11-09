@@ -1,0 +1,89 @@
+:root {
+  --light-green: rgb(83, 238, 109);
+  --light-red: rgb(238, 119, 83);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1 {
+  display: block;
+  font-size: 1em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.App {
+  width: max-content;
+  margin: 0 auto;
+}
+.App--particle {
+  display: flex;
+}
+.App--title{
+  width: 484px;
+  margin: 0 auto;
+  padding: 5px 0px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  text-align: center;
+}
+.App--title__container{
+  display: flex;
+}
+.App--title > h1{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+li {
+  display: flex;
+}
+ul {
+  flex-direction: column;
+  margin: 0;
+  border: 1px solid;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+li > div{
+  display: flex;
+}
+li > div > p {
+  border-bottom: 1px solid;
+  margin: 0px 0px;
+  padding: 10px;
+}
+.bg-green{
+  background-color: var(--light-green);
+}
+.bg-red{
+  background-color: var(--light-red);
+}
+.f-child{
+  border-right: 1px solid; 
+}
+.f-child-reverse{
+  border-left: 1px solid; 
+}
+.reverse{
+  flex-direction: row-reverse;
+}
